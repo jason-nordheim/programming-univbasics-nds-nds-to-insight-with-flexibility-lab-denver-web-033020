@@ -80,6 +80,9 @@ def gross_per_studio(collection)
     studio = movie[:studio]
     if output[studio] is nil
       output[studio] = movie[:worldwide_gross]
+    else
+      cur_val = output[studio]
+      cur_val += movie[:worldwide_gross]
     end
     k += 1
   end
