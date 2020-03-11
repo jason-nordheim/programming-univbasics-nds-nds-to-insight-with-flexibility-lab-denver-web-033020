@@ -80,12 +80,12 @@ def gross_per_studio(collection)
     if result[studio] != nil
       result[studio] += collection[i][:worldwide_gross]
     else
-      result[studio] = collection[i][:worldwide_gross] 
+      result[studio] = collection[i][:worldwide_gross]
     end
     k += 1
   end
 
-  output
+  result 
 end
 
 
