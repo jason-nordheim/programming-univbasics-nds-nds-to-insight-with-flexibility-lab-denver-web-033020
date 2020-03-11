@@ -106,7 +106,7 @@ def movies_with_directors_set(source)
   result = []
   k = 0
   while k < source.count do
-    dir_movies = source[k]
+    dir_movies = []
     j = 0
     while j < source[k][:movies].count do
       new_hash = movie_with_director_name()
