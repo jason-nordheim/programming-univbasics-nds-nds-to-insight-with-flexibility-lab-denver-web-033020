@@ -77,7 +77,9 @@ def gross_per_studio(collection)
   while k < collection.length do
     movie = collection[i]
     studio = collection[i][:studio]
-    
+    new_hash = {
+      
+    }
     k += 1
   end
 
