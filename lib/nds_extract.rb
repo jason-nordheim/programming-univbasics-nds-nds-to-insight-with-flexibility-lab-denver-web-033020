@@ -78,7 +78,7 @@ def gross_per_studio(collection)
   # create a hash with all the studios
   # and default the gross revenue to 0
   while i < collection.count do
-
+    result[collection[:studio]]
   end
 
   result
