@@ -115,6 +115,7 @@ def movies_with_directors_set(source)
       dir_movies << new_movie_hash
       j += 1
     end
+    result << dir_movies
     k += 1
   end
   return result
