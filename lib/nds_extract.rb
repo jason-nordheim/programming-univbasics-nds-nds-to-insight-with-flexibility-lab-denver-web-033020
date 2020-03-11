@@ -112,7 +112,7 @@ def movies_with_directors_set(source)
     while j < source[k][:movies].count do
       orig_movie_hash = source[k][:movies][j]
       new_movie_hash = movie_with_director_name(dir_name, orig_movie_hash)
-      result << movie
+      result << new_movie_hash
       j += 1
     end
     k += 1
