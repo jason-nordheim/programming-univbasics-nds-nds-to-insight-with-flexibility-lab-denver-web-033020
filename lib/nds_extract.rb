@@ -108,8 +108,8 @@ def movies_with_directors_set(source)
     dir_movies = source[k]
     j = 0
     while j < dir_movies[:movies].count do
-
-      j += 1 
+      movie = dir_movies[:movies][j]
+      j += 1
     end
     k += 1
   end
