@@ -77,13 +77,7 @@ def gross_per_studio(collection)
   while k < collection.length do
     movie = collection[i]
     studio = collection[i][:studio]
-    if output[studio] == nil
-      output[studio] = movie[:worldwide_gross]
-    else
-      gross = output[studio]
-      gross += movie[:worldwide_gross]
-      output[studio] = gross
-    end
+    
     k += 1
   end
 
