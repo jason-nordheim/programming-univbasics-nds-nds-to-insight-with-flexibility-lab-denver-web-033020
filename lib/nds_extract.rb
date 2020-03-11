@@ -79,10 +79,14 @@ def gross_per_studio(collection)
   # and default the gross revenue to 0
   while i < collection.count do
     result[collection[i][:studio]] = 0
-    i += 1 
+    i += 1
   end
 
   i = 0
+  while i < collection.count do
+    
+    i += 1
+  end
 
 
   result
