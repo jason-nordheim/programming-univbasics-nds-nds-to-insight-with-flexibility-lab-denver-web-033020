@@ -53,7 +53,8 @@ def movies_with_director_key(name, movies_collection)
   while k < movies_collection.length do
     movie = movies_collection[i]
     movie[:name] = name
-    ouput << movie 
+    ouput << movie
+    k += 1 
   end
 end
 
