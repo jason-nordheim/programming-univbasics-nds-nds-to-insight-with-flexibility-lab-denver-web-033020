@@ -105,7 +105,8 @@ def movies_with_directors_set(source)
   result = []
   k = 0
   while k < source.count do
-    dir_movies = source[k] 
+    dir_movies = source[k]
+    
     k += 1
   end
 
