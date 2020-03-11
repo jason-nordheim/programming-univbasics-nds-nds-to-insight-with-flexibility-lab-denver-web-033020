@@ -83,6 +83,7 @@ def gross_per_studio(collection)
     else
       cur_val = output[studio]
       cur_val += movie[:worldwide_gross]
+      output[studio] = cur_val
     end
     k += 1
   end
