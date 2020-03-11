@@ -54,8 +54,9 @@ def movies_with_director_key(name, movies_collection)
     movie = movies_collection[i]
     movie[:name] = name
     ouput << movie
-    k += 1 
+    k += 1
   end
+  return output 
 end
 
 
