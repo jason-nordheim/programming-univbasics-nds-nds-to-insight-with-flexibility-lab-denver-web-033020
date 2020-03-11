@@ -56,7 +56,8 @@ def movies_with_director_key(name, movies_collection)
     ouput << movie
     k += 1
   end
-  return output 
+
+  output 
 end
 
 
